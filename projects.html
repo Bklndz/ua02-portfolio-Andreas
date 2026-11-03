@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Projects by Andreas, Fullstack JavaScript Developer student." name="description"/>
+<title>Projects | Andreas Portfolio</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/base.css" rel="stylesheet"/>
+<link href="css/portfolio.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<div class="container header-container">
+<a aria-label="Andreas portfolio home" class="logo" href="index.html">
+                &lt;andreas /&gt;
+            </a>
+<nav aria-label="Main navigation" class="main-nav">
+<ul class="nav-list">
+<li>
+<a class="nav-link" href="index.html">Home</a>
+</li>
+<li>
+<a class="nav-link" href="about.html">About</a>
+</li>
+<li>
+<a class="nav-link" href="tech-stack.html">
+                            Tech Stack
+                        </a>
+</li>
+<li>
+<a aria-current="page" class="nav-link active" href="projects.html">
+                            Projects
+                        </a>
+</li>
+<li>
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+</ul>
+</nav>
+<button aria-label="Switch to dark mode" aria-pressed="false" class="theme-toggle" type="button">Dark mode</button></div>
+</header>
+<main class="page-main">
+<section aria-labelledby="projects-heading" class="container">
+<div class="projects-header">
+<h1 class="page-heading" id="projects-heading">
+                    Projects
+                </h1>
+<p class="page-subtitle">
+                    Things I've built so far
+                </p>
+</div>
+<div class="project-controls"><label for="project-filter">Filter projects: </label><select id="project-filter"><option value="all">All projects</option><option value="javascript">JavaScript</option><option value="other">Other languages</option></select></div><div aria-live="polite" class="projects-grid" id="projects-grid"><p>Loading GitHub projects…</p></div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-container">
+<p class="footer-credit">
+                Designed by
+                <span class="gradient-text">Pawan</span>
+                and built by
+                <span class="gradient-text">Andreas</span>
+</p>
+</div>
+</footer>
+<script defer="True" src="js/projects.js"></script><script defer="True" src="js/theme.js"></script></body>
+</html>

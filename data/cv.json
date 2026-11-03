@@ -1,0 +1,30 @@
+{
+  "work": [
+    {
+      "title": "Security Officer",
+      "organization": "Avarn Security",
+      "location": "Stockholm, Sweden",
+      "status": "Study Leave"
+    },
+    {
+      "title": "Sales",
+      "organization": "International Sales",
+      "location": "Abroad",
+      "status": "Previous"
+    },
+    {
+      "title": "Broadband Support",
+      "organization": "Hi3G",
+      "location": "",
+      "status": "Previous"
+    }
+  ],
+  "education": [
+    {
+      "title": "Fullstack Developer JavaScript",
+      "organization": "Chas Academy",
+      "location": "Stockholm, Sweden",
+      "status": "Current"
+    }
+  ]
+}

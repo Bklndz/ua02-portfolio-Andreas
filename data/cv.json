@@ -1,3 +1,4 @@
+
 {
   "work": [
     {
@@ -21,10 +22,22 @@
   ],
   "education": [
     {
-      "title": "Fullstack Developer JavaScript",
-      "organization": "Chas Academy",
-      "location": "Stockholm, Sweden",
-      "status": "Current"
+      "school": "Chas Academy",
+      "program": "Fullstack JavaScript Developer",
+      "period": "Pågående",
+      "description": "Utbildning inom webbutveckling med fokus på JavaScript."
+    },
+    {
+      "school": "Gymnasiet",
+      "program": "El- och eventteknik",
+      "period": "",
+      "description": "Gymnasieutbildning inom el och eventteknik."
+    },
+    {
+      "school": "Grundskola",
+      "program": "Grundskoleutbildning",
+      "period": "",
+      "description": "Avslutad grundskoleutbildning."
     }
   ]
 }
